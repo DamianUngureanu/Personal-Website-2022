@@ -1,0 +1,160 @@
+.cont1{
+    position:relative;
+    background-color: rgb(27, 27, 27);
+    color:rgb(255, 255, 255);
+    display: flex;
+}   
+
+
+
+
+.fund{
+    height: 100%;
+    width: 45%;
+}
+.langaFund{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(27, 27, 27);
+    height: 100%;
+    width: 55%;
+}
+#imagineFund{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#DIVimagineProf{
+    display: flex;
+    position:absolute;
+    border-radius: 50%;
+    width:15%;
+    left:37.6%;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+
+#imagineProf{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.DIVtop{
+    display:flex;
+    flex-direction: row;
+    text-align: center; 
+    width: 100%;
+}
+
+.DIVtop .unu{
+    flex:1;
+}
+.DIVtop .doi{
+    flex:1;
+}
+.DIVtop .trei{
+    flex:1;
+}
+
+.DIVtop div button{
+    width: 100%;
+    padding:10px 10px 10px 10px;
+    height: 55px;
+    border:none;
+    background-color: rgba(255, 255, 255, 0);
+    color:rgb(255, 0, 191);
+    transition:0.15s;
+
+    font-size:25px;
+    font-weight: 500;
+}
+.DIVtop div button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 0, 191);
+    color:rgb(255, 255, 255);
+}
+.DIVtop div button:active{
+    font-weight: 700;
+}
+
+
+
+.DIVmid{
+    font-size: 40px;
+    font-weight: 500;
+    width: 100%;
+}
+.DIVmid div{
+    margin-top:10px;
+}
+#ceSunt{
+    font-size: 25px;
+    font-weight: 300;
+}
+#nume1, #nume2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.DIVbot{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.DIVbot1{
+    display:flex;
+    flex-direction: row;
+}.DIVbot1 button{
+    font-size: 40px;
+    background-color: rgba(245, 222, 179, 0);
+    border:none;
+    color:rgb(255, 0, 191);
+    margin-right:10px;
+}
+.DIVbot1 .ig{
+    margin-left: 30px;
+}
+.DIVbot1 button ion-icon:hover{
+    background-color: rgb(255, 0, 191);
+    color:white;
+    cursor:pointer;
+    box-shadow: 0 0 35px rgb(255, 0, 179);
+}
+.DIVbot1 button ion-icon{
+    border-radius: 8px;
+    transition: 0.15s;
+}
+.DIVbot2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width: 100px;
+}
+.DIVbot2 button{
+    height: 80%;
+    width: 90%;
+    border-radius: 5px;
+    border:none;
+    background-color: rgb(36, 36, 36);
+    color:white;
+    transition:0.15s;
+}
+.DIVbot2 button:hover{
+    background-color: rgb(54, 54, 54);
+}
+.DIVbot2 button:active{
+    margin-top:2px;
+}
+.DIVbot2 button a{
+    text-decoration: none;
+    color:white;
+    padding:15% 35%;
+}

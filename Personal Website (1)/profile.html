@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/c1/style.css">
+    <link rel="stylesheet" href="css/c2/style.css">
+    <link rel="stylesheet" href="css/c3/style.css">
+    <link rel="stylesheet" href="css/c4/style.css">
+    <link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/general.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div id="dp" class="dp">
+        <span onclick="openNav()" id="main"></span>
+          <div id="mySidenav" class="sidenav">
+            <div class="DIVlogo" id="DIVlogo">
+                <img src="imagini/logo.png">
+            </div>
+            <a href="#">My profile</a>
+            <a href="#">-________-</a>
+            <a href="#">-________-</a>
+            <a href="#">-________-</a>
+          </div>
+        </div>
+
+
+    <button class="scrollTop" id="scrollTop"><ion-icon name="caret-up-outline"></ion-icon></button>
+
+
+    <div class="tot" id="tot">
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="cont1" id="cont1">
+            <div class="fund" id="fund">
+                <img src="imagini/fundal_imagine.jpg" id="imagineFund">
+                <div id='DIVimagineProf'>
+                    <img src="imagini/profile_imagine.jpg" id="imagineProf">
+                    <div id='DIV2'></div>
+                </div>
+
+            </div>
+            <div class="langaFund" id="langaFund">
+
+                <div class="DIVtop" id="DIVtop">
+                        <div class="unu" id="unu">
+                            <button id='bt1'>About me</button>
+                        </div>
+                        <div class="doi" id="doi">
+                            <button id='bt2'>My skills</button>
+                        </div>
+                        <div class="trei" id="trei">
+                            <button id='bt3'>History</button>
+                        </div>
+                </div>
+
+                <div class="DIVmid" id="DIVmid">
+                    <div class="midScris" id="midScris">Hello World! My name is</div>
+                    <div id="nume1"></div>
+                    <div id="nume2"></div>
+                    <div id="ceSunt"></div>
+                </div>
+                <div class="DIVbot" id="DIVbot">
+                    <div class="DIVbot1" id="DIVbot1">
+                        <div class="ig" id="ig">
+                            <button><ion-icon name="logo-instagram"></ion-icon></button>
+                        </div>
+                        <div class="fb" id="fb">
+                            <button><ion-icon name="logo-facebook"></ion-icon></button>
+                        </div>
+                        <div class="gh" id="gh">
+                            <button><ion-icon name="logo-github"></ion-icon></button>
+                        </div>
+                    </div>
+                    <div class="DIVbot2" id="DIVbot2">
+                        <button><a href="#">edit</a></button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="cont2" id="cont2">
+            <div class="cont2DIV" id="cont2DIV">
+                <div class="DIValtaImagine" id="DIValtaImagine">
+                    <img src="imagini/alta-imagine.jpg">
+                </div>
+                <div class="DIVdescriere" id="DIVdescriere">
+                    <div class="scrisAM" id="scrisAM"><p>About me</p></div>
+                    <div id="ceSunt2"></div>
+                    <div class="DIVDIVdescriere" id="DIVDIVdescriere">
+                        <div class="descriere" id="descriere"></div>
+                    </div>
+                    <div class="DIVbt" id="DIVbt"><button>Let's talk</button></div>
+                </div>
+            </div>
+           
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="cont3" id="cont3">
+            <div class="scrisSR" id="scrisSR"><p>My skills</p></div>
+            <div class="cont3DIV" id="cont3DIV">
+                <div class="DIVswiper" id="DIVswiper">
+
+
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper" id="swiper-wrapper"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <span class="close" id="q">&times;</span>
+                            <h2 id="h22"></h2>
+                          </div>
+                          <div class="modal-body" id="modal-body1">
+
+                          </div>
+                          <div class="modal-footer"></div>
+                        </div>
+                      </div>
+
+                      <div id="myModal2" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <span class="close2" id="qq">&times;</span>
+                            <h2 id="h2"></h2>
+                          </div>
+                          <div class="modal-body" id="modal-body2">
+                            <ul style="list-style-type:none; color:white;" id="ul"></ul>
+                          </div>
+                          <div class="modal-footer"></div>
+                        </div>
+                      </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="cont4" id="cont4">
+            <div class="scrisMS" id="scrisMS"><p>History</p></div>
+            <div class="hsl" id="hsl">
+                <div class="h" id="h">
+                    <div class="hDIV1" id="hDIV1">
+                        
+                    </div>
+                    <div class="hDIV2" id="hDIV2">
+                        <p id="prooff">Credibilitate: </p>
+                        <button>raportează</button>
+                    </div>
+
+                </div>
+                <div class="DIVl" id="DIVl">
+                    <div class="l" id="l">
+                        <div class="dm" id="dm">
+                            <div class="dmDIV" id="dmDIV">
+                                <p style="margin:0 20px ">Limbi</p>
+                                
+                                <div class="DIVspan" id="DIVspan" onclick="openLb()">
+                                    <span class="material-symbols-outlined"  id="sgt">arrow_back_ios</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="diploma" id="diploma"></div>
+            
+
+        </div>
+
+
+
+
+
+
+        <footer>
+            <div class="footleft" id="footleft"><button id="logoJos"><img src="imagini/logo.png"></button></div>
+            <div class="footright" id="footright">
+                <a href="#">About</a>
+                <p>/</p>
+                <a href="#">Contact</a>
+                <p>/</p>
+                <a href="#">Help</a>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!--constante-->
+    <script>
+        const NUME=["Ungureanu", "Damian"];
+        const ceFac=["game developer", "3D desinger","web developer"];
+        const descriere=["Descrierea mea e un faina, nu prea inspirata. tot ce vezi aici trebuie introdus de altundeva, astfel sa poti edita tot ce citesti. ffajahbfbavbah bahbrbgabvaf vabh hbhebbfu aiygf uiryfuafbua df guyfga uyfg ugb udbu u yrgfubfub urbvubvub vaurbvurbvru hberubue rbufebr ueh vberuvberuh"];
+        const totCeFac=[
+            {
+                name:"game developer",
+                lv:3,
+                links:{
+                        href: ["https://www.youtube.com/watch?v=oCvniXHbTdo","https://www.youtube.com/watch?v=RvP4i6iQqP8"],
+                        nume:["Fratii Grime - Locomotiva","Samurai x El Nino - Lumea Mea de Scrum"],
+                    },
+                img:["imagini/RFB1.jpg","imagini/RFB2.jpg","imagini/RFB3.jpg"],
+            },
+            {
+                name:"3D artist",
+                lv:1,
+                links:{
+                        href: ["https://www.youtube.com/watch?v=oCvniXHbTdo","https://www.youtube.com/watch?v=MUDLFp0ehVE"],
+                        nume:["Fratii Grime - Locomotiva","DOC x STRES - POZE"],
+                    },
+                img:["imagini/RFB1.jpg","imagini/RFB2.jpg"],
+            },
+            {
+                name:"web developer",
+                lv:4,
+                links:{
+                        href: ["https://www.youtube.com/watch?v=oCvniXHbTdo"],
+                        nume:["Fratii Grime - Locomotiva"],
+                    },
+                img:["imagini/RFB1.jpg","imagini/RFB2.jpg"],
+            },
+            {
+                name:"Romanian final boss",
+                lv:5,
+                links:{
+                        href: ["https://www.youtube.com/watch?v=oCvniXHbTdo"],
+                        nume:["Fratii Grime - Locomotiva"],
+                    },
+                img:["imagini/RFB1.jpg","imagini/RFB2.jpg"],
+            },
+            {
+                name:"inca ceva",
+                lv:2,
+                links:{
+                        href: ["https://www.youtube.com/watch?v=oCvniXHbTdo"],
+                        nume:["Fratii Grime - Locomotiva"],
+                    },
+                img:["imagini/RFB1.jpg","imagini/RFB2.jpg"],
+            }
+        ];
+    const trecut=[
+            {
+                nume:["Colegiul Nicolae Titulescu"],
+                diploma:["imagini/diploma1.jpg"],
+            },
+            {
+                nume:["Curs de facut bine"],
+                diploma:["imagini/diploma2.jpg"],
+            }, 
+            {
+                nume:["concurul de cel mai fain","alt concurs"],
+                diploma:["imagini/diploma2.jpg","imagini/diploma2.jpg"],
+            },
+    ];
+    const limbi={
+                nume:["engleza","franceza","japoneza","germana","spaniola"],
+                lv:[5,2,1,4,3],
+    };
+    const proof="100%";
+    
+    </script>
+
+    <script src="js/index.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/setPreFace.js"></script>
+    <script src="js/swiper.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            centeredSlides: true,
+            spaceBetween: 30,
+            grabCursor: true,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+});
+    </script>
+
+    <script>
+        var swiper2 = new Swiper(".mySwiper2", {
+        scrollbar: {
+            el: ".swiper-scrollbar",
+            hide: true,
+        },
+        });
+    </script>
+
+
+    <!--icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <script>
+        var modal = document.getElementById("myModal");
+        var modal2 = document.getElementById("myModal2");
+        var span = document.getElementsByClassName("close")[0];
+        var span2 = document.getElementsByClassName("close2")[0];
+        var dip=document.getElementById("diploma");
+
+        function openModul2(n){
+            document.getElementById("myModal2").style.transition = "2s";
+            document.getElementById("myModal2").style.backgroundColor = "rgba(0,0,0,0.4)";
+            document.getElementById("h2").innerHTML=totCeFac[n].links.nume.length+" linkuri:";
+            for(j=0;j<totCeFac[n].links.nume.length;j++)
+            {
+                
+                let li=document.createElement("li");
+                    let a=document.createElement("a");
+                    a.href=totCeFac[n].links.href[j];
+                    a.innerHTML="&#x25E6;\xa0"+totCeFac[n].links.nume[j]+"\xa0";
+                    a.target="_blank";
+                li.appendChild(a);
+                document.getElementById("ul").appendChild(li);
+            }
+            modal2.style.display = "block";
+            document.body.style.overflow = "hidden";
+        };
+        function openModule1(n){
+            document.getElementById("myModal").style.transition = "2s";
+            document.getElementById("myModal").style.backgroundColor = "rgba(0,0,0,0.4)";
+            document.getElementById("h22").innerHTML=totCeFac[n].img.length+" imagini:";
+            for(j=0;j<totCeFac[n].img.length;j++)
+            {
+                let divv=document.createElement("div");
+                    let imgg=document.createElement("img");
+                    imgg.src=totCeFac[n].img[j];
+                    divv.appendChild(imgg);
+                document.getElementById("modal-body1").appendChild(divv);
+            }
+            modal.style.display = "block";
+            document.body.style.overflow = "hidden";
+        };
+
+        span.onclick = function() {
+            document.getElementById("modal-body1").innerHTML="";
+            modal.style.display = "none";
+            document.body.style.overflow = "auto";
+        }
+        span2.onclick = function() {
+            document.getElementById("ul").innerHTML="";
+            modal2.style.display = "none";
+            document.body.style.overflow = "auto";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal || event.target == modal2) {
+                document.getElementById("modal-body1").innerHTML="";
+                document.getElementById("ul").innerHTML="";
+                document.body.style.overflow = "auto";
+                modal.style.display = "none";
+                modal2.style.display = "none";
+            }
+            if (event.target == dop) {
+                document.getElementById("dp").style.transition = "1s";
+                document.getElementById("dp").style.width = "0";
+                document.getElementById("dp").style.backgroundColor="rgba(0,0,0,0)";
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+
+                document.body.style.overflow = "auto";
+            }
+            if(event.target == dip)
+            {
+                document.getElementById("diploma").style.transition="0.45s";
+                document.getElementById("diploma").style.width="0";
+                document.getElementById("diploma").style.height="0";
+                document.getElementById("diploma").style.top="50%";
+                document.getElementById("diploma").style.left="50%";
+                document.getElementById("diploma").style.backgroundColor="rgba(0, 0, 0, 0)";
+                document.getElementById("diploma").innerHTML='';
+            }
+        }
+        </script>
+    
+    
+</body>
+</html>
